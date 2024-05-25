@@ -205,28 +205,6 @@ if (length(inspect_failed) > 0) {
   print(inspect_failed)
 }
 
-xmin = -87.61842
-xmax = -87.61237
-ymin = 41.64007
-ymax = 41.64461
-
-center_lat <- (ymin + ymax) / 2
-center_lon <- (xmin + xmax) / 2
-
-api_key <- "AIzaSyDsI86z2nKnDH_cJszTbd9DTapvjAQGwZc"
-
-# Create the URL
-url <- sprintf("https://maps.googleapis.com/maps/api/staticmap?center=%f,%f&size=600x300&maptype=satellite&visible=%f,%f|%f,%f|%f,%f|%f,%f&key=%s",
-               center_lat, center_lon, ymin, xmin, ymin, xmax, ymax, xmax, ymax, xmin, api_key)
-
-response <- GET(url)
-
-if (status_code(response) == 200) {
-  # Write the content to an image file
-  writeBin(content(response, "raw"), "C:/Users/ayush/OneDrive/Desktop/output_image.png")
-} else {
-  print("Failed to download image")
-}
 
 
 
