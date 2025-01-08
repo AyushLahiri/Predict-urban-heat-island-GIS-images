@@ -23,10 +23,10 @@ In their raw form, the two experimental datasets look like this:
 <table>
   <tr>
     <td>
-      <img src="assets/1.png" width="400" alt="Dataset A" />
+      <img src="assets/2.png" width="400" alt="Dataset A" />
     </td>
     <td>
-      <img src="assets/2.png" width="400" alt="Dataset B" />
+      <img src="assets/1.png" width="400" alt="Dataset B" />
     </td>
   </tr>
   <tr>
