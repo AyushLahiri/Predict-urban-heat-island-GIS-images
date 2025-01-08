@@ -38,7 +38,7 @@ In their raw form, the two experimental datasets look like this:
 -- where dataset A represents a highly simplified image where only necessary charactersitics are extracted from spatial data, representing outlines similar to what may be produced during initial urban planning stages   
 -- and dataset B represents composite images of areas where charactersitcis such as vegetation and roads are showin in their raw forms
 
-For a full outline of my data creation, analytical methodology and results, I highly recommend reading the whitepaper available in my repo!
+**For a full outline of my data creation, analytical methodology and results, I highly recommend reading the whitepaper available in my repo!**
 
 ## Technicals
 
