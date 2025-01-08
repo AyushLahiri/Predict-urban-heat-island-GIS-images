@@ -20,18 +20,23 @@ This project aims to **predict UHI effects** by analyzing the spatial distributi
 
 In their raw form, the two experimental datasets look like this:
 
-```markdown
-<p float="left">
-  <img src="images/datasetA.png" width="400" alt="Dataset A" />
-  <img src="images/datasetB.png" width="400" alt="Dataset B" />
-</p>
+<table>
+  <tr>
+    <td>
+      <img src="images/datasetA.png" width="400" alt="Dataset A" />
+    </td>
+    <td>
+      <img src="images/datasetB.png" width="400" alt="Dataset B" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Dataset A</strong></td>
+    <td align="center"><strong>Dataset B</strong></td>
+  </tr>
+</table>
 
-**Figure:**  
-**Left - Dataset A**: A highly simplified image focusing on necessary characteristics of an urban environment, akin to initial urban planning outlines.  
-**Right - Dataset B**: Composite images showing vegetation, roads, and other features in their raw forms.
-
--- where dataset A represents a highly simplified image of only necessary charactersitics of an urban environment, representing outlines similar to what may be produced during initial urban planning stages 
--- a nd dataset B represents composite images of areas where charactersitcis such as vegetation and roads are showin in their raw forms
+-- where dataset A represents a highly simplified image where only necessary charactersitics are extracted from spatial dara, representing outlines similar to what may be produced during initial urban planning stages 
+-- and dataset B represents composite images of areas where charactersitcis such as vegetation and roads are showin in their raw forms
 
 For a full outline of my data creation, analytical methodology and results, I highly recommend reading the whitepaper available in my repo!
 
